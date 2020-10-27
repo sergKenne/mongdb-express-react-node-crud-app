@@ -1,18 +1,14 @@
-import React from 'react'
+import React from 'react';
 
-const AddUser = () => {
+const EditUser = () => {
     return (
         <div className="container">
             <div className="add-user card blue-grey draken-1">
-                <h3 className="center">Add user</h3>
+                <h3 className="center">Edit user</h3>
                 <form className="col s12 form">
                     <div className="row">
                         <div className="input-field col s12">
-                            <input
-                                placeholder="Enter Your Name"
-                                type="text"
-                                className="validate"
-                            />
+                            <input placeholder="Enter Your Name" type="text" className="validate" />
                         </div>
                         <div className="input-field col s12">
                             <input
@@ -50,6 +46,6 @@ const AddUser = () => {
             </div>
         </div>
     );
-}
+};
 
-export default AddUser
+export default EditUser;

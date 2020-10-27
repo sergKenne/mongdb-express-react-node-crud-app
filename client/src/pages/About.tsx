@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
     return (
         <div className="container">
-            <h1>Page About</h1>
+            <h3>Page About</h3><br/>
             <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque necessitatibus a
                 dolorem, excepturi at atque doloremque fugit eius animi error nobis quis pariatur
