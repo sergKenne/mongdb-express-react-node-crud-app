@@ -1,0 +1,82 @@
+
+body {
+    background-color: #ff9800 !important;
+}
+
+.app {
+
+}
+
+.navbar {
+
+    &__list {
+        margin-left: 180px!important;
+    }
+
+    &__btn {
+        transform: translateY(40%);
+        -webkit-transform: translateY(40%);
+        -moz-transform: translateY(40%);
+        -ms-transform: translateY(40%);
+        -o-transform: translateY(40%);
+}   
+}
+
+nav ul a {
+    font-size: 1.35rem;
+}
+
+.home-table {
+    padding-left: 12px;
+    padding-right: 12px;
+
+    thead {
+        background-color:#252a2e;
+        color: #ffffff;
+        font-size: 1.3rem;
+        padding: 0 20px;
+
+
+    }
+
+    // th, td {
+    //     padding-left: 14px;
+    // }
+
+    tbody td {
+        color: #ffffff;
+        font-size: 1.175rem;
+    }
+
+    .waves-effect {
+        margin-right: 15px;
+    }
+}
+
+
+// input form
+
+.input-field.col label {
+    left: 0;
+}
+
+.input-field > label {
+  font-size: 1.1rem;
+}
+
+.input-field .helper-text {
+    color: #e0e0e0;
+}
+
+
+[type="checkbox"]+span:not(.lever):before {
+    border-color: #ffffff;
+}
+
+.contact {
+    label {
+        color: #aea9a9
+    }
+}
+
+
